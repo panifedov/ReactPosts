@@ -33,7 +33,7 @@ function App() {
       <PostForm create={createPost}/>
       <div>
         <select>
-          <options value='value1' ></options>
+          <options value='value1' >123</options>
         </select>
       </div>
       {posts.length !== 0
