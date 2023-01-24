@@ -29,20 +29,3 @@
 }
 
 
-
-.post_btn {
-
-}
-
-.btn {
-    width: 100px;
-    height: 30px;
-    border: none;
-    border-radius: 15px;
-    background-color: #61dafb;
-}
-
-.btn:hover {
-    color: white;
-    background-color: #44aff7;
-}

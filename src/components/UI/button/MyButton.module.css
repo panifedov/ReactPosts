@@ -1,0 +1,12 @@
+.myBtn {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: #61dafb;
+    font-size: 14px;
+}
+
+.myBtn:hover {
+    color: white;
+    background-color: #44aff7;
+}

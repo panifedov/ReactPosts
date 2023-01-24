@@ -3,6 +3,8 @@ import React, { useState } from 'react'
 // import Counter from './components/Counter'
 import PostItem from './components/PostItem'
 import PostList from './components/PostList';
+import MyButton from './components/UI/button/MyButton';
+import MyInput from './components/UI/input/MyInput';
 import './styles/App.css'
 
 function App() {
@@ -22,13 +24,16 @@ function App() {
     }
   ]); 
 
+  const  addNewPost = () => {
+    
+  };
 
   return (
     <div className="App">
       <form>
-        <input type='text' placeholder='название поста'></input>
-        <input type='text' placeholder='описание поста'></input>
-        <button>Создать пост</button>
+        <MyInput type='text' placeholder='название поста'/>
+        <MyInput type='text' placeholder='описание поста'/>
+        <MyButton onclick={addNewPost}>Создать пост</MyButton>
       </form>
       <PostList posts = {posts} title={' Посты JS '}/>
     </div>
