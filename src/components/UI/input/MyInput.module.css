@@ -5,3 +5,7 @@
     border: 2px solid #61dafb;
     border-radius: 10px;
 }
+
+.myInput::-moz-active-outer {
+    border: 2px solid #618afb;
+}
