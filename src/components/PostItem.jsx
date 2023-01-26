@@ -1,10 +1,10 @@
 import React from 'react';
-import MyButton from './UI/button/MyButton';
+import MyButton from "./UI/button/MyButton";
 import {useHistory} from 'react-router-dom';
 
-function PostItem(props) {
+const PostItem = (props) => {
     const router = useHistory()
-    console.log(router);
+
     return (
         <div className="post">
             <div className="post_content">
@@ -13,16 +13,16 @@ function PostItem(props) {
                     {props.post.body}
                 </div>
             </div>
-            <div className='post_btn'>
-                <MyButton onClick={() => props.push(`/posts/${props.post.id}`)} className='btn'>
-                    Open
+            <div className="post_btn">
+                <MyButton onClick={() => router.push(`/posts/${props.post.id}`)}>
+                    Открыть
                 </MyButton>
-                <MyButton onClick={() => props.remove(props.post)} className='btn'>
-                    Delete
+                <MyButton onClick={() => props.remove(props.post)}>
+                    Удалить
                 </MyButton>
             </div>
         </div>
     );
-}
+};
 
 export default PostItem;
