@@ -24,7 +24,6 @@ function App() {
   const [page, setPage] = useState(1);
   const sortedAndSearchedPosts = usePosts(posts, filter.sort, filter.query);
 
-    let pagesArray = getPagesArray(totalPages);
 
   const [fetchPosts, isPostsLoading, postError] = useFetching ( async() => {
     const response = await PostService.getAll(limit, page);
@@ -36,7 +35,7 @@ function App() {
   
   useEffect(() => {
     fetchPosts()
-  }, []);
+  }, [page]);
 
 
 
@@ -49,6 +48,10 @@ function App() {
     setPosts(posts.filter(p => p.id !== post.id))
   }
 
+  const changePage = (page) => {
+    setPage(page)
+    
+  }
 
   return (
     <div className="App">
@@ -72,9 +75,7 @@ function App() {
         ? <div style={{display: 'flex', justifyContent: 'center' , marginTop: 200}}><Loader/></div>
         :<PostList remove={removePost} posts = {sortedAndSearchedPosts} title={' Посты JS '}/>
       }
-      {pagesArray.map(p => 
-        <MyButton>{p}</MyButton>  
-      )}
+
     
     </div>
   )
