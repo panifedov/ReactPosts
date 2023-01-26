@@ -1,6 +1,6 @@
 import React from 'react';
 
-function About(props) {
+function About() {
     return (
         <h1>
             Это приложение создано для изучения react обуч. ролик на ULBI TV
