@@ -1,8 +1,12 @@
 # React Posts 
 
-####   React foundation app
+##   React foundation app
 
-####I studied
+###I studied
+
+![img](https://raw.githubusercontent.com/panifedov/react_posts/main/src/assets/Screenshot%20from%202023-01-26%2018-55-00.png)
+![img](https://raw.githubusercontent.com/panifedov/react_posts/main/src/assets/Screenshot%20from%202023-01-26%2018-54-04.png)
+![img](https://raw.githubusercontent.com/panifedov/react_posts/main/src/assets/Screenshot%20from%202023-01-26%2018-53-02.png)
 
 Что такое JSX    | What is JSX
 Компонент App. Работа с состоянием. UseState   | Application Component. Working with state. UseState
@@ -45,6 +49,5 @@ useContext. Глобальные данные. Авторизация польз
 
 Ресурс Урока (https://www.youtube.com/watch?v=GNrdg3PzpJQ&t=3956s&ab_channel=UlbiTV)
 
-![img](https://raw.githubusercontent.com/panifedov/react_posts/main/src/assets/Screenshot%20from%202023-01-26%2018-53-02.png)
-![img](https://raw.githubusercontent.com/panifedov/react_posts/main/src/assets/Screenshot%20from%202023-01-26%2018-54-04.png)
-![img](https://raw.githubusercontent.com/panifedov/react_posts/main/src/assets/Screenshot%20from%202023-01-26%2018-55-00.png)
+
+
