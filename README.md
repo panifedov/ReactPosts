@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# React Posts 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+####   React foundation app
 
-## Available Scripts
+####I studied
 
-In the project directory, you can run:
+Что такое JSX    | What is JSX
+Компонент App. Работа с состоянием. UseState   | Application Component. Working with state. UseState
+Управляемый инпут   | Managed Input
+Первый функциональный компонент   | First functional component
+Первый классовый компонент  | First class component
+Что такое хуки! useState, useEffect  | What are hooks! state of use, effect of use
+Стили. CSS. Классы  | Styles. CSS. Classes
+Props. Аргументы компонента.   | Props. Component parameters.
+Работы со списками. Преобразование массива объектов в массив React элементов  | Work with lists. Converting an Array of Objects to React Elements
+Форма создания поста. Управляемые и неуправляемые компоненты  | Post creation form. Managed and unmanaged components
+Создание UI библиотеки. Первые компоненты. CSS модули. Пропс children|Creation of the user interface of the library. First components. CSS modules. Props for children
 
-### `npm start`
+Предотвращаем обновление страницы при submit формы      | Prevent page refresh on submit
+хук useRef. Доступ к DOM элементу. Неуправляемый компонент       | hook useRef. Accessing a DOM element. Unmanaged Component
+React Devtools. Инструменты разработчика React      | React development tools. React Developer Tools
+Обмен данными между компонентами. От родителя к ребенку. От ребенка к родителю.       | Exchange between these components. From parent to child. From child to parent.
+Отрисовка по условию     | Conditional drawing
+Сортировка. Выпадающий список       | Sorting. Drop-down list
+Поиск. Фильтрация.     | Search. Filtration.
+useMemo. Мемоизация. Кеширование    | use Memo. Memoization. caching
+Модальное окно. Переиспользуемый UI компонент | modal window. Reusable UI Component
+Анимации. React transition group | Animations. Respond to transition group
+Декомпозиция. Кастомные хуки | Decomposition. Custom Hooks
+Работа с сервером. Axios | Working with the server. Axios
+Жизненный цикл компонента. useEffect   | Life cycle component. useEffect
+API. PostService | API. Postservice
+Индикация загрузки данных с сервера | Indication of downloading data from the server
+Компонент Loader. Анимации | Component loader. Animations
+Кастомный хук useFetching(). Обработка ошибок | Custom hook useFetching(). Error processing
+Постраничный вывод. Пагинация (pagination) | Pagination output. Pagination
+Обьяснение механизма изменения состояния | State Change Mechanism Explained
+React router. Постраничная навигация. BrowserRouter, Route, Switch, Redirect | Reactive Router. Page navigation. BrowserRouter, Route, Switch, Redirect
+Динамическая навигация. useHistory, useParams |Dynamic navigation. usage history, usage parameters
+Загрузка комментариев к посту | Loading post comments
+Улучшаем навигацию. Приватные и публичные маршруты | We improve navigation. Private and public routes
+useContext. Глобальные данные. Авторизация пользователя | use context. global data. User authorization
+Бесконечная лента. Динамическая пагинация. useObserver | Endless tape. Dynamic pagination. useObserver
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Ресурс Урока (https://www.youtube.com/watch?v=GNrdg3PzpJQ&t=3956s&ab_channel=UlbiTV)
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![img](https://raw.githubusercontent.com/panifedov/react_posts/main/src/assets/Screenshot%20from%202023-01-26%2018-53-02.png)
+![img](https://raw.githubusercontent.com/panifedov/react_posts/main/src/assets/Screenshot%20from%202023-01-26%2018-54-04.png)
+![img](https://raw.githubusercontent.com/panifedov/react_posts/main/src/assets/Screenshot%20from%202023-01-26%2018-55-00.png)
