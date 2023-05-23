@@ -44,7 +44,7 @@ useContext. Глобальные данные. Авторизация польз
 Бесконечная лента. Динамическая пагинация. useObserver | Endless tape. Dynamic pagination. useObserver
 
 
-Ресурс Урока (https://www.youtube.com/watch?v=GNrdg3PzpJQ&t=3956s&ab_channel=UlbiTV)
+
 
 ![img](https://raw.githubusercontent.com/panifedov/react_posts/main/src/assets/Screenshot%20from%202023-01-26%2018-54-04.png)
 ![img](https://raw.githubusercontent.com/panifedov/react_posts/main/src/assets/Screenshot%20from%202023-01-26%2018-53-02.png)
